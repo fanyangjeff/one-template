@@ -23,8 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B8289265205EFEEA0075CF43 /* Olympian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Olympian.h; sourceTree = "<group>"; };
 		B845A7E6205B4FC1004C9C8F /* one template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "one template"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B845A7E9205B4FC1004C9C8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B845A7F0205B4FD9004C9C8F /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		B845A7F1205B4FF6004C9C8F /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		B845A7F2205B501C004C9C8F /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				B845A7E9205B4FC1004C9C8F /* main.cpp */,
+				B845A7F0205B4FD9004C9C8F /* Stack.h */,
+				B845A7F1205B4FF6004C9C8F /* LinkList.h */,
+				B845A7F2205B501C004C9C8F /* Hash.h */,
+				B8289265205EFEEA0075CF43 /* Olympian.h */,
 			);
 			path = "one template";
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 				B845A7EF205B4FC1004C9C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
