@@ -46,7 +46,6 @@ int main(int argc, const char * argv[]) {
     char gender[7] = {'m','f','f','f','m','m','m'};
     
 
-
     int age[7] = {24, 23, 22, 21, 23, 24, 23};
     int height[7] = {6, 5, 6, 6, 5, 4, 3};
      int ng[7] = {3, 9, 2, 3, 1, 2, 3};
@@ -63,7 +62,6 @@ int main(int argc, const char * argv[]) {
     
     for(int i=0; i<7; i++)
         olympian[i] = new Olympian(name[i], sports[i],states[i],  gender[i], age[i], height[i], ng[i], ns[i], nb[i]);
-    
 
     
     for(int i=0; i<7; i++)
