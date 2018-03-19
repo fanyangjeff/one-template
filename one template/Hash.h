@@ -344,6 +344,13 @@ bool Hash<T>::rehash()
 template<class T>
 void Hash<T>::printStats()
 {
+    Stats stats;
+    stats.stats_collision = this->collision;
+    stats.curr_size = this->resize;
+    stats.LoadFactor = this->load_factor;
+    
+    s_stats->push(stats);
+
     Stats dataOut;
     
     cout<<left<<setw(15)<<"Current_SIZE"<<left<<setw(15)<<"Collisions"<<left<<setw(15)
